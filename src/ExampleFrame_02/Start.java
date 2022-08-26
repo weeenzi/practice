@@ -12,14 +12,15 @@ public class Start {
 //        String[][] tableValues = {{"A1","B1","C1","D1"},
 //                {"A2","B2","C2","D2"},
 //                {"A3","B3","C3","D3"},{"A4","B4","C4","D4"}};
-        String[][] tableValues = new String[7][4];
+        String[][] tableValues = new String[8][4];
 
 
         try{
             Statement sql =con.createStatement();
             ResultSet res = sql.executeQuery("select * from pets");
 
-            for(int i = 0 ;i<6; i++){
+
+            for(int i = 0 ;i<tableValues.length; i++){
                 res.next();
                 int id = res.getInt("pet_id");
                 String name =res.getString("pet_name");

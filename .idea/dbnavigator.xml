@@ -34,9 +34,7 @@ select * from pets;]]></console>
     </connection>
   </component>
   <component name="DBNavigator.Project.DatabaseFileManager">
-    <open-files>
-      <object connection-id="3d7e2a85-a761-4780-87ec-f101ef3bbc89" object-ref="schemas/test/tables/pets" />
-    </open-files>
+    <open-files />
   </component>
   <component name="DBNavigator.Project.DatabaseSessionManager">
     <connection id="3d7e2a85-a761-4780-87ec-f101ef3bbc89" />
