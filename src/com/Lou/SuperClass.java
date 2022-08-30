@@ -1,3 +1,5 @@
+package com.Lou;
+
 public class SuperClass {
     int i;
     SuperClass(){

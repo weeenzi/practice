@@ -1,3 +1,5 @@
+package com.Lou;
+
 public class TestSuperSub {
     public static void main(String[] args) {
         System.out.println("子类继承");

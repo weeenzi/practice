@@ -1,3 +1,5 @@
+package com.Lou;
+
 public class Animal {
     String name;
     int id;
@@ -15,6 +17,6 @@ public class Animal {
     }
 
     public void Animaleat(){
-        System.out.println("大家好 我是"+id+"号"+"Animal"+"我在吃东西");
+        System.out.println("大家好 我是"+id+"号"+"com.Lou.Animal"+"我在吃东西");
     }
 }

@@ -1,3 +1,5 @@
+package com.Lou;
+
 import java.util.Scanner;
 
 public class TestPrint {

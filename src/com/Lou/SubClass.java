@@ -1,3 +1,5 @@
+package com.Lou;
+
 public class SubClass extends SuperClass{
     int i;
     SubClass(){

@@ -1,3 +1,5 @@
+package com.Lou;
+
 public class TestSerch {
     public static void main(String[]args){
         char a='A';

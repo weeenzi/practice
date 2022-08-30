@@ -1,3 +1,5 @@
+package com.Lou;
+
 public class Cat extends Animal{
     void eat(){
         System.out.println("大家好 我是"+id+"号"+name+"我在吃东西");

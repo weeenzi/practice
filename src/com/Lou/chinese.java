@@ -1,3 +1,5 @@
+package com.Lou;
+
 public class chinese {
     public static void main(String[] args) {
         DemoStatic zhangsan =new DemoStatic();
